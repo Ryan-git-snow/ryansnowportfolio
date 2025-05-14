@@ -13,40 +13,43 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Full-Stack Developer',
+	title: '[Ryan Weckbacher] - ServiceNow Developer',
 	description:
-		'Welcome to my portfolio! I am a passionate full-stack developer who bridges the gap between frontend and backend development. Specializing in creating complete web solutions, from beautiful user interfaces to robust server architectures.',
+		'Welcome to my portfolio! I am a passionate ServiceNow Developer and System Administrator. Specializing in creating robust enterprise applications and seamless platform integrations',
 	keywords: [
-		'Full-Stack Developer',
-		'Software Engineer',
+		'ServiceNow Application Developer',
+		'ServiceNow System Administrator',
 		'Frontend Development',
 		'Backend Development',
+		'Agentic AI',
+		'JavaScript',
 		'React',
 		'Next.js',
 		'Node.js',
 		'TypeScript',
-		'Database Design',
+		'CMDB Design',
 		'API Development',
 		'Cloud Solutions',
-		'DevOps',
+		'Agile',
+		'ITIL',
 		'System Architecture',
 		'Web Development',
-		'[Your Name]',
+		'[Ryan Weckbacher]',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: '[Ryan Weckbacher]' }],
+	creator: '[Ryan Weckbacher]',
 	openGraph: {
-		title: '[Your Name] - Full-Stack Developer Portfolio',
+		title: '[Ryan Weckbacher] - ServiceNow Developer',
 		description:
-			'Passionate full-stack developer creating complete web solutions. Explore my projects and technical expertise across the entire development stack.',
+			'Passionate ServiceNow Developer and System Administrator. Explore my projects and technical expertise across the entire development stack.',
 		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		siteName: '[Ryan Weckbacher] - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Full-Stack Developer Portfolio',
+				alt: '[Ryan Weckbacher] - ServiceNow Developer',
 			},
 		],
 		locale: 'en_US',
@@ -54,10 +57,10 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Full-Stack Developer',
+		title: '[Ryan Weckbacher] - ServiceNow Developer',
 		description:
 			'Passionate full-stack developer creating complete web solutions. Explore my projects and technical expertise across the entire development stack.',
-		creator: '@yourusername',
+		creator: '@samuryann',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
