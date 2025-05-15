@@ -18,7 +18,6 @@ export default function HeroSection() {
 						<h1 className="text-4xl md:text-7xl font-bold text-cyan-900">
 							Ryan Weckbacher
 						</h1>
-						<br />
 						<h2 className="text-2xl md:text-4xl font-bold text-gray-900">Senior ServiceNow Developer</h2>
 						<p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
 							I craft end-to-end solutions building scalable applications, seamless integrations, and leading development projects.
