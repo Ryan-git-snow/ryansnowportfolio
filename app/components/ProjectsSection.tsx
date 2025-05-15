@@ -45,7 +45,7 @@ export default function ProjectsSection() {
 											</ul>
 										</div>
 										<div>
-											<h4 className="text-sm font-semibold text-purple-600 mb-3">Backend Systems</h4>
+											<h4 className="text-sm font-semibold text-purple-600 mb-3">Backend Pipeline</h4>
 											<ul className="space-y-2 text-sm text-gray-600">
 												<li>• CMDB Integration</li>
 												<li>• Complex Workflow Automation</li>

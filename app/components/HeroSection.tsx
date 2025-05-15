@@ -15,10 +15,10 @@ export default function HeroSection() {
 			<div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 pt-8 md:pt-0">
 				<motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-8 md:mb-12">
 					<div className="space-y-3 md:space-y-4 mb-6 md:mb-8">
-						<h1 className="text-4xl md:text-7xl font-bold text-cyan-900">
+						<h1 className="text-4xl md:text-7xl font-bold text-black-900">
 							Ryan Weckbacher
 						</h1>
-						<h2 className="text-2xl md:text-4xl font-bold text-gray-900">Senior ServiceNow Developer</h2>
+						<h2 className="text-2xl md:text-4xl font-bold text-teal-800">Senior ServiceNow Developer</h2>
 						<p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
 							I craft end-to-end solutions building scalable applications, seamless integrations, and leading development projects.
 						</p>
