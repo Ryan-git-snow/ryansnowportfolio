@@ -234,7 +234,7 @@ export default function ProjectsSection() {
 												</text>
 											</g>
 
-											{/* API Layer */}
+											{/* Configuration Layer */}
 											<g>
 												<rect x="20" y="270" width="360" height="30" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="200" y="290" textAnchor="middle" className="fill-gray-600 text-[12px]">
