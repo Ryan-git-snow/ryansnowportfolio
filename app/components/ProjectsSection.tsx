@@ -12,11 +12,11 @@ export default function ProjectsSection() {
 					viewport={{ once: true }}
 					className="text-3xl font-bold mb-16 text-center text-gray-900"
 				>
-					Full Stack Projects
+					Notable Projects
 				</motion.h2>
 
 				<div className="space-y-16">
-					{/* E-commerce Platform */}
+					{/* IT Acquisitions Engine */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -27,9 +27,10 @@ export default function ProjectsSection() {
 							<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 								<div className="space-y-6">
 									<div>
-										<h3 className="text-2xl font-bold mb-4 text-gray-900">Enterprise E-commerce Platform</h3>
+										<h3 className="text-2xl font-bold mb-4 text-gray-900">IT Acquisitions Engine</h3>
 										<p className="text-gray-600">
-											A high-performance e-commerce solution handling 100K+ daily transactions with real-time inventory and ML-powered recommendations.
+											A custom application that transformed a complex IT procurement process into a streamlined, automated experience
+											across the Enterprise.
 										</p>
 									</div>
 
@@ -37,19 +38,19 @@ export default function ProjectsSection() {
 										<div>
 											<h4 className="text-sm font-semibold text-blue-600 mb-3">Frontend Architecture</h4>
 											<ul className="space-y-2 text-sm text-gray-600">
-												<li>• Next.js Server Components</li>
-												<li>• Real-time Cart & Inventory</li>
-												<li>• Stripe Payment Integration</li>
-												<li>• PWA with Offline Support</li>
+												<li>• Custom Application UI Experience</li>
+												<li>• Interactive Portal</li>
+												<li>• Intuitive Catalog Wizard</li>
+												<li>• Dashboard reporting and tracking</li>
 											</ul>
 										</div>
 										<div>
 											<h4 className="text-sm font-semibold text-purple-600 mb-3">Backend Systems</h4>
 											<ul className="space-y-2 text-sm text-gray-600">
-												<li>• Node.js Microservices</li>
-												<li>• Redis Caching Layer</li>
-												<li>• Kafka Event Streaming</li>
-												<li>• Elasticsearch Product Search</li>
+												<li>• CMDB Integration</li>
+												<li>• Complex Workflow Automation</li>
+												<li>• Custom system rules</li>
+												<li>• Scoped security configurations</li>
 											</ul>
 										</div>
 									</div>
@@ -57,15 +58,15 @@ export default function ProjectsSection() {
 									<div className="space-y-3">
 										<h4 className="text-sm font-semibold text-teal-600">Key Achievements</h4>
 										<ul className="space-y-2 text-sm text-gray-600">
-											<li>• 99.99% Uptime with Blue-Green Deployment</li>
-											<li>• 300ms Average API Response Time</li>
-											<li>• 45% Reduction in Infrastructure Costs</li>
+											<li>• Modernized manual legacy processes</li>
+											<li>• Significantly reduced IT acquisition completion time</li>
+											<li>• Increased user adoption and customer satisfaction</li>
 										</ul>
 									</div>
 								</div>
 
 								<div className="bg-gray-50 rounded-xl p-6">
-									<h4 className="text-sm font-semibold text-gray-600 mb-4">System Architecture</h4>
+									<h4 className="text-sm font-semibold text-gray-600 mb-4">Application Architecture</h4>
 									<div className="aspect-[4/3] bg-white rounded-lg p-4 shadow-inner">
 										{/* Add detailed system architecture diagram here */}
 										<svg className="w-full h-full" viewBox="0 0 400 300">
@@ -73,7 +74,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="20" width="360" height="40" rx="4" className="fill-blue-100 stroke-blue-400" strokeWidth="1" />
 												<text x="200" y="45" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Next.js Frontend (SSR + Client Components)
+													ServiceNow Portal Experience
 												</text>
 											</g>
 
@@ -82,18 +83,18 @@ export default function ProjectsSection() {
 												<rect x="20" y="80" width="170" height="40" rx="4" className="fill-purple-100 stroke-purple-400" strokeWidth="1" />
 												<rect x="210" y="80" width="170" height="40" rx="4" className="fill-purple-100 stroke-purple-400" strokeWidth="1" />
 												<text x="105" y="105" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Product Service
+													UI Builder
 												</text>
 												<text x="295" y="105" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Order Service
+													Catalog Wizard
 												</text>
 											</g>
 
-											{/* Cache Layer */}
+											{/* Process Layer */}
 											<g>
 												<rect x="20" y="140" width="360" height="30" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="200" y="160" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Redis Cache Layer
+													Workflow Studio
 												</text>
 											</g>
 
@@ -102,10 +103,10 @@ export default function ProjectsSection() {
 												<rect x="20" y="190" width="170" height="40" rx="4" className="fill-blue-100 stroke-blue-400" strokeWidth="1" />
 												<rect x="210" y="190" width="170" height="40" rx="4" className="fill-purple-100 stroke-purple-400" strokeWidth="1" />
 												<text x="105" y="215" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Product DB (PostgreSQL)
+													Flows/Subflows
 												</text>
 												<text x="295" y="215" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Order DB (MongoDB)
+													Record Producer
 												</text>
 											</g>
 
@@ -113,7 +114,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="250" width="360" height="30" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="200" y="270" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Elasticsearch Product Search
+													Business Rules/Client Scripts/Security Configuration
 												</text>
 											</g>
 
@@ -133,7 +134,7 @@ export default function ProjectsSection() {
 						</div>
 					</motion.div>
 
-					{/* Real-time Analytics Platform */}
+					{/* SELC Engine */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -144,9 +145,9 @@ export default function ProjectsSection() {
 							<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 								<div className="space-y-6">
 									<div>
-										<h3 className="text-2xl font-bold mb-4 text-gray-900">Real-time Analytics Platform</h3>
+										<h3 className="text-2xl font-bold mb-4 text-gray-900">IT Systems Engineering Lifecycle Application</h3>
 										<p className="text-gray-600">
-											A scalable analytics platform processing 1M+ events per minute with real-time dashboards and ML-powered insights.
+											A custom request application that redefined how IT initiatives are processed throughout the Enterprise.
 										</p>
 									</div>
 
@@ -156,27 +157,27 @@ export default function ProjectsSection() {
 											<ul className="space-y-2 text-sm text-gray-600">
 												<li>• Real-time Data Visualization</li>
 												<li>• Interactive Dashboards</li>
-												<li>• Custom Chart Components</li>
+												<li>• Modern notification design</li>
 												<li>• Data Export Tools</li>
 											</ul>
 										</div>
 										<div>
 											<h4 className="text-sm font-semibold text-purple-600 mb-3">Backend Pipeline</h4>
 											<ul className="space-y-2 text-sm text-gray-600">
-												<li>• Apache Kafka Streams</li>
-												<li>• ClickHouse Analytics DB</li>
-												<li>• Python Data Processing</li>
-												<li>• Redis Time Series</li>
+												<li>• Complex workflow branching</li>
+												<li>• CMDB Integration</li>
+												<li>• Change Management Integration</li>
+												<li>• Automated Systems Engineering Investment Integration</li>
 											</ul>
 										</div>
 									</div>
 
 									<div className="space-y-3">
-										<h4 className="text-sm font-semibold text-teal-600">Performance Metrics</h4>
+										<h4 className="text-sm font-semibold text-teal-600">Key Achievements</h4>
 										<ul className="space-y-2 text-sm text-gray-600">
-											<li>• 1M+ Events/Minute Processing</li>
-											<li>• Sub-second Query Response</li>
-											<li>• 99.99% Data Accuracy</li>
+											<li>• Transformed and modernized outdated email-based processes</li>
+											<li>• Broke down Enterprise silos and achieved cross-department collaboration</li>
+											<li>• Significantly increased Enterprise interest in the ServiceNow</li>
 										</ul>
 									</div>
 								</div>
@@ -191,13 +192,13 @@ export default function ProjectsSection() {
 												<rect x="145" y="20" width="110" height="30" rx="4" className="fill-blue-100 stroke-blue-400" strokeWidth="1" />
 												<rect x="270" y="20" width="110" height="30" rx="4" className="fill-blue-100 stroke-blue-400" strokeWidth="1" />
 												<text x="75" y="40" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Web Events
+													Investment List
 												</text>
 												<text x="200" y="40" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Mobile Events
+													Enterprise Services
 												</text>
 												<text x="325" y="40" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													API Events
+													Initiative Artifacts
 												</text>
 											</g>
 
@@ -205,7 +206,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="80" width="360" height="40" rx="4" className="fill-purple-100 stroke-purple-400" strokeWidth="1" />
 												<text x="200" y="105" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Kafka Event Streaming
+													Catalog Request
 												</text>
 											</g>
 
@@ -214,10 +215,10 @@ export default function ProjectsSection() {
 												<rect x="20" y="150" width="170" height="40" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<rect x="210" y="150" width="170" height="40" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="105" y="175" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Stream Processing
+													Flows/Subflows
 												</text>
 												<text x="295" y="175" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Batch Processing
+													System Events
 												</text>
 											</g>
 
@@ -226,10 +227,10 @@ export default function ProjectsSection() {
 												<rect x="20" y="220" width="170" height="30" rx="4" className="fill-blue-100 stroke-blue-400" strokeWidth="1" />
 												<rect x="210" y="220" width="170" height="30" rx="4" className="fill-purple-100 stroke-purple-400" strokeWidth="1" />
 												<text x="105" y="240" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													ClickHouse
+													Table configuration
 												</text>
 												<text x="295" y="240" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Redis Time Series
+													Notificiations
 												</text>
 											</g>
 
@@ -237,7 +238,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="270" width="360" height="30" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="200" y="290" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													GraphQL API Layer
+													Business Rules/Client Scripts/Security Configuration
 												</text>
 											</g>
 
