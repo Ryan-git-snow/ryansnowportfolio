@@ -14,7 +14,7 @@ export default function ContactSection() {
 						Let&apos;s discuss your project. 
 						<br />
 						<br />
-						Need a Platform Admin that can maintain great instances? I've got you covered.
+						Need a Platform Admin that can maintain great instances? I&apos;ve got you covered.
 					</p>
 
 					{/* Location */}
