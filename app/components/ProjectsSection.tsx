@@ -27,7 +27,7 @@ export default function ProjectsSection() {
 							<div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 								<div className="space-y-6">
 									<div>
-										<h3 className="text-2xl font-bold mb-4 text-gray-900">IT Acquisitions Engine</h3>
+										<h3 className="text-2xl font-bold mb-4 text-gray-900">IT Acquisitions Application</h3>
 										<p className="text-gray-600">
 											A custom application that transformed a complex IT procurement process into a streamlined, automated experience
 											across the Enterprise.

@@ -9,12 +9,9 @@ export default function ContactSection() {
 				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="space-y-8">
 					<h2 className="text-3xl font-bold text-gray-900">Let&apos;s Build Something Amazing</h2>
 					<p className="text-gray-600 max-w-2xl mx-auto">
-						Looking for a developer who can architect and implement complete solutions? 
+						"Simplicity is the ultimate sophistication" 
 						<br />
-						Let&apos;s discuss your project. 
-						<br />
-						<br />
-						Need a Platform Admin that can maintain great instances? I&apos;ve got you covered.
+						-Leonardo da Vinci
 					</p>
 
 					{/* Location */}
