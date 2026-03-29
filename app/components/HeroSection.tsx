@@ -32,11 +32,11 @@ export default function HeroSection() {
 						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-teal-600 text-xs md:text-sm">Certified Implementer Strategic Portfolio Management</span>
 						{/* Break */}
 						<div className="w-full"></div>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-purple-600 text-xs md:text-sm">Agentic AI</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-100 rounded-full text-teal-600 text-xs md:text-sm">JavaScript</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-blue-600 text-xs md:text-sm">Node.js</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-purple-600 text-xs md:text-sm">Tailwind CSS</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-teal-600 text-xs md:text-sm">REST</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-100 rounded-full text-purple-600 text-xs md:text-sm">Agentic AI</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-teal-600 text-xs md:text-sm">JavaScript</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-blue-600 text-xs md:text-sm">Node.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-100 rounded-full text-purple-600 text-xs md:text-sm">Tailwind CSS</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-teal-600 text-xs md:text-sm">REST</span>
 					</div>
 				</motion.div>
 
