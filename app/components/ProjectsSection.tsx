@@ -16,7 +16,7 @@ export default function ProjectsSection() {
 				</motion.h2>
 
 				<div className="space-y-16">
-					{/* IT Acquisitions Engine */}
+					{/* IT Acquisitions Application */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="140" width="360" height="30" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="200" y="160" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Workflow Studio
+													Workflow Engine
 												</text>
 											</g>
 
@@ -103,7 +103,7 @@ export default function ProjectsSection() {
 												<rect x="20" y="190" width="170" height="40" rx="4" className="fill-blue-100 stroke-blue-400" strokeWidth="1" />
 												<rect x="210" y="190" width="170" height="40" rx="4" className="fill-purple-100 stroke-purple-400" strokeWidth="1" />
 												<text x="105" y="215" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Flows/Subflows
+													Tables & Columns
 												</text>
 												<text x="295" y="215" textAnchor="middle" className="fill-gray-600 text-[12px]">
 													Record Producer
@@ -114,7 +114,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="250" width="360" height="30" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="200" y="270" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Business Rules/Client Scripts/Security Configuration
+													Server & Client Utilities | Security Rules
 												</text>
 											</g>
 
@@ -147,7 +147,7 @@ export default function ProjectsSection() {
 									<div>
 										<h3 className="text-2xl font-bold mb-4 text-gray-900">IT Systems Engineering Lifecycle Application</h3>
 										<p className="text-gray-600">
-											A custom request application that redefined how IT initiatives are processed throughout the Enterprise.
+											A custom application that redefined how IT initiatives are processed throughout the Enterprise.
 										</p>
 									</div>
 
@@ -183,7 +183,7 @@ export default function ProjectsSection() {
 								</div>
 
 								<div className="bg-gray-50 rounded-xl p-6">
-									<h4 className="text-sm font-semibold text-gray-600 mb-4">Data Flow Architecture</h4>
+									<h4 className="text-sm font-semibold text-gray-600 mb-4">Application Architecture</h4>
 									<div className="aspect-[4/3] bg-white rounded-lg p-4 shadow-inner">
 										<svg className="w-full h-full" viewBox="0 0 400 300">
 											{/* Data Sources */}
@@ -202,11 +202,11 @@ export default function ProjectsSection() {
 												</text>
 											</g>
 
-											{/* Event Processing */}
+											{/* Database Layer */}
 											<g>
 												<rect x="20" y="80" width="360" height="40" rx="4" className="fill-purple-100 stroke-purple-400" strokeWidth="1" />
 												<text x="200" y="105" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Catalog Request
+													Tables & Columns
 												</text>
 											</g>
 
@@ -215,22 +215,22 @@ export default function ProjectsSection() {
 												<rect x="20" y="150" width="170" height="40" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<rect x="210" y="150" width="170" height="40" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="105" y="175" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Flows/Subflows
+													Record Producer
 												</text>
 												<text x="295" y="175" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													System Events
+													Workflow Engine
 												</text>
 											</g>
 
-											{/* Storage Layer */}
+											{/* User Experience Layer */}
 											<g>
 												<rect x="20" y="220" width="170" height="30" rx="4" className="fill-blue-100 stroke-blue-400" strokeWidth="1" />
 												<rect x="210" y="220" width="170" height="30" rx="4" className="fill-purple-100 stroke-purple-400" strokeWidth="1" />
 												<text x="105" y="240" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Table configuration
+													Service Portal
 												</text>
 												<text x="295" y="240" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Notificiations
+													Notifications
 												</text>
 											</g>
 
@@ -238,7 +238,7 @@ export default function ProjectsSection() {
 											<g>
 												<rect x="20" y="270" width="360" height="30" rx="4" className="fill-teal-100 stroke-teal-400" strokeWidth="1" />
 												<text x="200" y="290" textAnchor="middle" className="fill-gray-600 text-[12px]">
-													Business Rules/Client Scripts/Security Configuration
+													Server & Client Utilities | Security Rules
 												</text>
 											</g>
 

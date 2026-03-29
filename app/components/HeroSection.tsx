@@ -20,22 +20,23 @@ export default function HeroSection() {
 						</h1>
 						<h2 className="text-2xl md:text-4xl font-bold text-teal-800">Senior ServiceNow Developer</h2>
 						<p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-							I craft end-to-end solutions building scalable applications, seamless integrations, and leading development projects.
+							I craft end-to-end solutions that work for your enterprise.
 						</p>
 						<p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto">
 							Senior Developer & Administrator at <span className="text-blue-600">Federal Emergency Management Agency</span>
 						</p>
 					</div>
 					<div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-6 md:mb-8">
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-blue-600 text-xs md:text-sm">Workflow Studio/Flow Designer</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-100 rounded-full text-purple-600 text-xs md:text-sm">UI Builder</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-teal-600 text-xs md:text-sm">ServiceNow Studio</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-blue-600 text-xs md:text-sm">Integration Hub</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-blue-600 text-xs md:text-sm">Certified Application Developer</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-100 rounded-full text-purple-600 text-xs md:text-sm">Certified System Administrator</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-teal-600 text-xs md:text-sm">Certified Implementer Strategic Portfolio Management</span>
 						{/* Break */}
 						<div className="w-full"></div>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-100 rounded-full text-purple-600 text-xs md:text-sm">JavaScript</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-teal-600 text-xs md:text-sm">REST</span>
-						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-blue-600 text-xs md:text-sm">HTML/CSS & Angular.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-purple-600 text-xs md:text-sm">Agentic AI</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-100 rounded-full text-teal-600 text-xs md:text-sm">JavaScript</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-blue-600 text-xs md:text-sm">Node.js</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-teal-100 rounded-full text-purple-600 text-xs md:text-sm">Tailwind CSS</span>
+						<span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-100 rounded-full text-teal-600 text-xs md:text-sm">REST</span>
 					</div>
 				</motion.div>
 
@@ -85,11 +86,11 @@ export default function HeroSection() {
 								<ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-gray-600">
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
-										Complex Enterprise Workflows
+										Enterprise Workflow Automation
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
-										Intuitive Automation
+										Maintainable Architecture
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-purple-500 rounded-full" />
@@ -110,15 +111,15 @@ export default function HeroSection() {
 								<ul className="space-y-1.5 md:space-y-2 text-xs md:text-sm text-gray-600">
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										Cloud Integration
+										DevOps Velocity Optimization
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										CI/CD Pipelines
+										CI/CD Pipeline Automation
 									</li>
 									<li className="flex items-center gap-2">
 										<div className="w-1.5 h-1.5 bg-teal-500 rounded-full" />
-										Agile Development
+										Seamless Cloud Integrations
 									</li>
 								</ul>
 							</div>
