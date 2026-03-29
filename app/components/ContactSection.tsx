@@ -9,7 +9,7 @@ export default function ContactSection() {
 				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="space-y-8">
 					<h2 className="text-3xl font-bold text-gray-900">Let&apos;s Build Something Amazing</h2>
 					<p className="text-gray-600 max-w-2xl mx-auto">
-						"Simplicity is the ultimate sophistication" 
+						&quot;Simplicity is the ultimate sophistication&quot;
 						<br />
 						-Leonardo da Vinci
 					</p>
